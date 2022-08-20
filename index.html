@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  
+  <body>
+    <div class="main">
+      <div class="container">
+        <div class="signup-content">
+          <div class="signup-img">
+            <img src="images/Secondaire.jpg" alt="" />
+          </div>
+          <div class="signup-form">
+            <form method="POST" class="register-form" id="register-form">
+              <h2>FORMULAIRE DE L'ELEVE</h2>
+              <br>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="name">Nom(s) :</label>
+                  <input type="text" name="name" id="name" required />
+                </div>
+                <br>
+                <div class="form-group">
+                  <label for="father_name">Prenom(s) :</label>
+                  <input
+                    type="text"
+                    name="father_name"
+                    id="father_name"
+                    required
+                  />
+                </div>
+              </div>
+                          
+              <div class="col-2">
+                <br>
+                <div class="input-group">
+                  <label class="label">Date de naissance</label>
+                  <input
+                    class="input--style-4"
+                    type="text"
+                    name="first_name"
+                  />
+                </div>
+                <div class="col-2">
+                  <br>
+                  <div class="input-group">
+                    <label class="label">Lieu de naissance</label>
+                    <input
+                      class="input--style-4"
+                      type="text"
+                      name="first_name"
+                    />
+                  </div>
+                <br>
+                
+              <div class="form-radio">
+                <label for="gender" class="radio-label">Sexe :</label>
+                <div class="form-radio-item">
+                  <input type="radio" name="gender" id="male" checked />
+                  <label for="male">Masculin</label>
+                  <span class="check"></span>
+                </div>
+                <div class="form-radio-item">
+                  <input type="radio" name="gender" id="female" />
+                  <label for="female">Feminin</label>
+                  <span class="check"></span>
+                </div>
+              </div> 
+              
+              <div class="col-2">
+                <br>
+                <div class="input-group">
+                  <label class="label">Classe</label>
+                  <input
+                    class="input--style-4"
+                    type="text"
+                    name="first_name"
+                  />
+                </div> 
+                  <br>
+                  <br>      
+                <div class="main1">
+                  <div class="container">
+                    <div class="signup-content">
+                      <div class="signup-form">
+                            <form method="POST" class="register-form" id="register-form">
+                            <h2>FORMULAIRE DU TUTEUR</h2>
+                            <br>
+                        <div class="form-row">
+                            <div class="form-group">
+                              <label for="name">Nom(s) du Tuteur :</label>
+                              <input type="text" name="name" id="name" required />
+                            </div>
+                            <br>
+                            <div class="form-group">
+                              <label for="father_name">Prenom(s) du Tuteur :</label>
+                              <input
+                                type="text"
+                                name="father_name"
+                                id="father_name"
+                                required
+                              />
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <br>
+                            <div class="input-group">
+                              <label class="label">Profession</label>
+                              <input
+                                class="input--style-4"
+                                type="text"
+                                name="first_name"
+                              />
+                            </div>                       
+                          
+                          <div class="col-2">
+                            <br>
+                            <div class="input-group">
+                              <label class="label">Numero de telephone</label>
+                              <input
+                                class="input--style-4"
+                                type="text"
+                                name="first_name"
+                              />
+                            </div>
+                            <br>
+
+                            <div class="col-2">
+                                <br>
+                                <div class="input-group">
+                                  <label class="label">Adresse E-mail</label>
+                                  <input
+                                    class="input--style-4"
+                                    type="text"
+                                    name="first_name"
+                                  />
+                                </div>
+                            </div>
+                    </div> 
+                </div>      
+              <br>
+              
+              <div class="form-submit">
+                <input
+                  type="submit"
+                  value="Annuler"
+                  class="submit"
+                  name="reset"
+                  id="reset"
+                />
+                <input
+                  type="submit"
+                  value="S'inscrire"
+                  class="submit"
+                  name="submit"
+                  id="submit"
+                />
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+<br>
+
+<div class="tableau">
+  <table>
+      <P>INFORMATION DE L'ELEVE</P>
+      <tr>
+          <th>Nom</th>
+          <th>Prenom</th>
+          <th>Date de naissance</th>
+          <th>Lieu de naissance</th>
+          <th>Sexe</th>
+          <th>Classes</th>
+      </tr>
+
+      <tr>
+          <td>MBOLO</td>
+          <td>Pierre</td>
+          <td>15 Avril 2014</td>
+          <td>Port-Gentil</td>
+          <td>Masculin</td>
+          <td>6eme</td>          
+      </tr>      
+   </table>
+</div>
+<br>
+<div class="info">
+   <table>
+    <P>INFORMATION DU TUTEUR</P>
+    <tr>
+        <th>Nom du Tuteur</th>
+        <th>Prenom du Tuteur</th>
+        <th>Profession</th>
+        <th>Numero de telephone</th>
+        <th>E-mail</th>        
+    </tr>
+ 
+    <tr>
+        <td>MBOLO</td>
+        <td>Luc</td>
+        <td>Soudeur</td>
+        <td>(+241) 074 000000</td>
+        <td>mbololuc@gmail.com</td>                  
+    </tr>      
+ </table>
+</div>
+
+    <!-- JS -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+
+</html>
